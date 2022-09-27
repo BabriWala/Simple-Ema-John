@@ -1,0 +1,31 @@
+nav{
+    background-color: #1C2B35;
+    padding: 20px 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu >a{
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-right: 32px;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.menu>a:last-child{
+    margin-right: 0;
+}
+
+.menu >a:hover{
+    color: #1C2B35;
+    background-color: #FFE0B3;
+    
+    
+}
