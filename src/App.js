@@ -1,13 +1,14 @@
 
 import './App.css';
 import Header from './Components/Header/Header';
-import Shop from './Components/Header/Shop/Shop';
+import Shop from './Components/Shop/Shop';
+
 
 function App() {
   return (
     <>
       <Header></Header>
-      <Shop></Shop>
+      <Shop></Shop>      
     </>
   );
 }
