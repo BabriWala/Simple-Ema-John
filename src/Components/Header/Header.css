@@ -1,9 +1,16 @@
+section{
+    height: 86px;
+    width: 100%;
+}
+
 nav{
     background-color: #1C2B35;
     padding: 20px 115px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 .menu >a{
     text-decoration: none;

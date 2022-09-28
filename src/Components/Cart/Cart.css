@@ -1,63 +1,66 @@
-
-.order-summary-title{
-    text-align: center;
-    font-family: 'Lato';
+.cart {
+  position: fixed;
+  right: 0;
+  height: 100vh;
+}
+.order-summary-title {
+  text-align: center;
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
   /* identical to box height */
-  
-  
-  color: #1C2B35;
+
+  color: #1c2b35;
   margin-bottom: 50px;
-  
-  }
-  .cart-item > p{
-    font-family: 'Lato';
+}
+.cart-item > p {
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 40px;
   letter-spacing: 0.005em;
-  
-  color: #2A414F;
-  }
-  
-  .total{
-    font-family: 'Lato';
+
+  color: #2a414f;
+}
+
+.total {
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
   line-height: 25px;
   letter-spacing: 0.0015em;
-  
-  color: #0E161A;
+
+  color: #0e161a;
   margin-bottom: 60px;
-  }
-  
-  .clear-cart, .review-order{
-    display: block;
-    width: 100%;
-    margin-bottom: 16px;
-    height: 48px;
-    font-family: 'Lato';
+}
+
+.clear-cart,
+.review-order {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  height: 48px;
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   /* identical to box height */
-  
+
   letter-spacing: 0.005em;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
   border: none;
   border-radius: 4px;
-  }
-  
-  .clear-cart{
-    background-color: #FF3030;
-  }
-  .review-order{
-    background-color: #FF9900;
-  }
+}
+
+.clear-cart {
+  background-color: #ff3030;
+}
+.review-order {
+  background-color: #ff9900;
+}

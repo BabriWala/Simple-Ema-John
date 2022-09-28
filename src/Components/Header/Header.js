@@ -4,7 +4,8 @@ import logo from '../../images/Logo.svg';
 import './Header.css';
 const Header = () => {
     return (
-        <nav>
+        <section>
+            <nav>
             <img src={logo} alt="Logo" />
             <div className="menu">
                 <a href="/order">Order</a>
@@ -13,6 +14,7 @@ const Header = () => {
                 <a href="/login">Login</a>
             </div>
         </nav>
+        </section>
     );
 };
 
